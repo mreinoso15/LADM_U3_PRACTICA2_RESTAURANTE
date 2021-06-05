@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Estado de la orden" />
+
+    <CheckBox
+        android:id="@+id/entrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se entrego la orden?" />
+</LinearLayout>
